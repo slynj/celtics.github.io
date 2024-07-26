@@ -92,7 +92,7 @@ const qnaList = [
       a: [
         { answer: 'a. I pack quickly and efficiently.', type: ['Holiday', 'Horford', 'Brown'] },
         { answer: 'b. I take my time to make sure I have everything.', type: ['Tatum', 'Pritchard', 'Hauser'] },
-        { answer: "c. It takes me forever to get ready, but I still tell Jaden that I'm almost done packing", type: ['Lyn vs Jeong'] },
+        { answer: "c. It takes me forever to get ready, but I still tell Jaden that I'm almost done packing.", type: ['Lyn vs Jeong'] },
       ]
     },
     {
@@ -103,7 +103,7 @@ const qnaList = [
       ]
     },
     {
-      q: '14. Are you an unstoppable Celtics fan who doesn’t admit that their logo is ugly?',
+      q: '14. Are you a stubborn Celtics fan who doesn’t admit that their logo is ugly?',
       a: [
         { answer: 'a. Absolutely, Celtics for life!', type: ['Jaden Lungidance'] },
         { answer: 'b. I’m a fan, but I can be honest about the logo.', type: ['Tatum', 'Brown', 'Holiday', 'Horford'] },
