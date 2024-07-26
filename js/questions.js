@@ -1,115 +1,138 @@
+/*
+'Tatum', 0
+'Smart', 1
+'Brown', 2 
+'Horford', 3
+'White', 4 
+'Williams', 5
+'Hauser', 6 
+'Pritchard', 7 
+'Porzingis', 8
+'Holiday', 9 
+'Brissett',  10
+'Walsh', 11
+'Kornet', 12
+'Champagnie', 13
+'Davison', 14
+'Jeong', 15
+'El-Kaissi', 16
+'Mahesh', 17
+'Lungidance', 18 
+*/
+
 const qnaList = [
     {
-      q: '1. How do you handle pressure in a game situation?',
-      a: [
-        { answer: 'a. I thrive under pressure and take control.', type: ['Tatum', 'Brown', 'Holiday'] },
-        { answer: 'b. I stay calm and support my teammates.', type: ['Horford', 'White', 'Kornet'] },
-        { answer: 'c. I focus on my specific role and execute.', type: ['Pritchard', 'Hauser', 'Brissett'] },
-      ]
+        q: '1. How do you handle pressure in a game situation?',
+        a: [
+            { answer: 'a. I thrive under pressure and take control.', type: [0, 2, 9] },
+            { answer: 'b. I stay calm and support my teammates.', type: [3, 4, 12] },
+            { answer: 'c. I focus on my specific role and execute.', type: [7, 6, 10] },
+        ]
     },
     {
-      q: '2. What’s your approach to defense?',
-      a: [
-        { answer: 'a. Aggressive, always going for the steal.', type: ['Smart', 'Brown', 'Holiday'] },
-        { answer: 'b. Solid positioning and staying in front of my man.', type: ['Horford', 'Williams', 'Porzingis'] },
-        { answer: 'c. Communication and helping my teammates.', type: ['White', 'Kornet', 'Stevens'] },
-      ]
+        q: '2. What’s your approach to defense?',
+        a: [
+            { answer: 'a. Aggressive, always going for the steal.', type: [1, 2, 9] },
+            { answer: 'b. Solid positioning and staying in front of my man.', type: [3, 5, 8] },
+            { answer: 'c. Communication and helping my teammates.', type: [4, 12, 11] },
+        ]
     },
     {
-      q: '3. How do you prepare for a big game?',
-      a: [
-        { answer: 'a. Intense focus and mental preparation.', type: ['Tatum', 'Brown', 'Holiday'] },
-        { answer: 'b. Listening to music and visualizing plays.', type: ['Smart', 'White', 'Williams'] },
-        { answer: 'c. Relaxing and keeping things light.', type: ['Pritchard', 'Hauser', 'Brissett'] },
-      ]
+        q: '3. How do you prepare for a big game?',
+        a: [
+            { answer: 'a. Intense focus and mental preparation.', type: [0, 2, 9] },
+            { answer: 'b. Listening to music and visualizing plays.', type: [1, 4, 5] },
+            { answer: 'c. Relaxing and keeping things light.', type: [7, 6, 10] },
+        ]
     },
     {
-      q: '4. What’s your style of play?',
-      a: [
-        { answer: 'a. Fast-paced and aggressive.', type: ['Brown', 'Tatum', 'Holiday'] },
-        { answer: 'b. Methodical and strategic.', type: ['Horford', 'Williams', 'Porzingis'] },
-        { answer: 'c. Versatile and adaptive.', type: ['Smart', 'White', 'Pritchard'] },
-      ]
+        q: '4. What’s your style of play?',
+        a: [
+            { answer: 'a. Fast-paced and aggressive.', type: [2, 0, 9] },
+            { answer: 'b. Methodical and strategic.', type: [3, 5, 8] },
+            { answer: 'c. Versatile and adaptive.', type: [1, 4, 7] },
+        ]
     },
     {
-      q: '5. What motivates you on the court?',
-      a: [
-        { answer: 'a. Winning and competition.', type: ['Tatum', 'Brown', 'Holiday'] },
-        { answer: 'b. Teamwork and camaraderie.', type: ['Horford', 'White', 'Williams'] },
-        { answer: 'c. Personal improvement and growth.', type: ['Pritchard', 'Hauser', 'Brissett'] },
-      ]
+        q: '5. What motivates you on the court?',
+        a: [
+            { answer: 'a. Winning and competition.', type: [0, 2, 9] },
+            { answer: 'b. Teamwork and camaraderie.', type: [3, 4, 5] },
+            { answer: 'c. Personal improvement and growth.', type: [7, 6, 10] },
+        ]
     },
     {
-      q: '6. How do you contribute to team chemistry?',
-      a: [
-        { answer: 'a. By being a vocal leader and motivator.', type: ['Smart', 'Horford', 'Holiday'] },
-        { answer: 'b. Through consistent performance and reliability.', type: ['Tatum', 'Brown', 'White'] },
-        { answer: 'c. By being a positive presence and supporting teammates.', type: ['Williams', 'Pritchard', 'Kornet'] },
-      ]
+        q: '6. How do you contribute to team chemistry?',
+        a: [
+            { answer: 'a. By being a vocal leader and motivator.', type: [1, 3, 9] },
+            { answer: 'b. Through consistent performance and reliability.', type: [0, 2, 4] },
+            { answer: 'c. By being a positive presence and supporting teammates.', type: [5, 7, 12] },
+        ]
     },
     {
-      q: '7. What’s your approach to training and improvement?',
-      a: [
-        { answer: 'a. Constantly working on all aspects of my game.', type: ['Tatum', 'Brown', 'Holiday'] },
-        { answer: 'b. Focusing on specific skills to master them.', type: ['White', 'Williams', 'Porzingis'] },
-        { answer: 'c. Balancing training with rest and recovery.', type: ['Horford', 'Pritchard', 'Kornet'] },
-      ]
+        q: '7. What’s your approach to training and improvement?',
+        a: [
+            { answer: 'a. Constantly working on all aspects of my game.', type: [0, 2, 9] },
+            { answer: 'b. Focusing on specific skills to master them.', type: [4, 5, 8] },
+            { answer: 'c. Balancing training with rest and recovery.', type: [3, 7, 12] },
+        ]
     },
     {
-      q: '8. How do you handle tough losses?',
-      a: [
-        { answer: 'a. Reflect on the game and focus on improvement.', type: ['Tatum', 'Brown', 'Smart'] },
-        { answer: 'b. Stay positive and encourage the team.', type: ['Horford', 'White', 'Holiday'] },
-        { answer: 'c. Move on quickly and prepare for the next game.', type: ['Williams', 'Pritchard', 'Hauser'] },
-      ]
+        q: '8. How do you handle tough losses?',
+        a: [
+            { answer: 'a. Reflect on the game and focus on improvement.', type: [0, 2, 1] },
+            { answer: 'b. Stay positive and encourage the team.', type: [3, 4, 9] },
+            { answer: 'c. Move on quickly and prepare for the next game.', type: [5, 7, 6] },
+        ]
     },
     {
-      q: '9. What role do you play in the team’s offense?',
-      a: [
-        { answer: 'a. Primary scorer and playmaker.', type: ['Tatum', 'Brown', 'Holiday'] },
-        { answer: 'b. Facilitator and setup player.', type: ['White', 'Smart', 'Horford'] },
-        { answer: 'c. Support role, providing spacing and shooting.', type: ['Pritchard', 'Hauser', 'Porzingis'] },
-      ]
+        q: '9. What role do you play in the team’s offense?',
+        a: [
+            { answer: 'a. Primary scorer and playmaker.', type: [0, 2, 9] },
+            { answer: 'b. Facilitator and setup player.', type: [4, 1, 3] },
+            { answer: 'c. Support role, providing spacing and shooting.', type: [7, 6, 8] },
+        ]
     },
     {
-      q: '10. How do you balance personal and team goals?',
-      a: [
-        { answer: 'a. Always prioritize team success over personal stats.', type: ['Horford', 'White', 'Holiday'] },
-        { answer: 'b. Strive for personal excellence as a means to help the team.', type: ['Tatum', 'Brown', 'Williams'] },
-        { answer: 'c. Find a balance, contributing in any way needed.', type: ['Smart', 'Pritchard', 'Hauser'] },
-      ]
+        q: '10. How do you balance personal and team goals?',
+        a: [
+            { answer: 'a. Always prioritize team success over personal stats.', type: [3, 4, 9] },
+            { answer: 'b. Strive for personal excellence as a means to help the team.', type: [0, 2, 5] },
+            { answer: 'c. Find a balance, contributing in any way needed.', type: [1, 7, 6] },
+        ]
     },
     {
-      q: '11. How long is your shower?',
-      a: [
-        { answer: 'a. Quick, I don’t like to waste time.', type: ['Tatum', 'Brown', 'Pritchard'] },
-        { answer: 'b. Average, just enough to refresh.', type: ['Horford', 'White', 'Hauser'] },
-        { answer: 'c. Long, I enjoy my time in the shower and somehow have my lips bleeding.', type: ['rAyan El-Kaissi', 'Williams', 'Smart'] },
-      ]
+        q: '11. How long is your shower?',
+        a: [
+            { answer: 'a. Quick, I don’t like to waste time.', type: [15] },
+            { answer: 'b. Average, just enough to refresh.', type: [17] },
+            { answer: 'c. Long, I enjoy my time in the shower and somehow have my lips bleeding.', type: [16] },
+        ]
     },
     {
-      q: '12. How long does it take you to pack up for PAC?',
-      a: [
-        { answer: 'a. I pack quickly and efficiently.', type: ['Holiday', 'Horford', 'Brown'] },
-        { answer: 'b. I take my time to make sure I have everything.', type: ['Tatum', 'Pritchard', 'Hauser'] },
-        { answer: "c. It takes me forever to get ready, but I still tell Jaden that I'm almost done packing.", type: ['Lyn vs Jeong'] },
-      ]
+        q: '12. How long does it take you to pack up for PAC?',
+        a: [
+            { answer: 'a. I pack quickly and efficiently.', type: [16] },
+            { answer: 'b. I take my time to make sure I have everything.', type: [18] },
+            { answer: "c. It takes me forever to get ready, but I still tell Jaden that I'm almost done packing.", type: [15] },
+        ]
     },
     {
-      q: '13. Are you bald?',
-      a: [
-        { answer: 'a. Yes, I embrace my baldness.', type: ['Vilo Rao Bangalore Oakville Waterloo Mahesh'] },
-        { answer: 'b. No, I have a full head of hair.', type: ['Tatum', 'Brown', 'Holiday', 'Smart'] },
-      ]
+        q: '13. Are you bald?',
+        a: [
+            { answer: 'a. Yes, I embrace my baldness.', type: [17] },
+            { answer: 'b. No, I have a full head of hair.', type: [16] },
+        ]
     },
     {
-      q: '14. Are you a stubborn Celtics fan who doesn’t admit that their logo is ugly?',
-      a: [
-        { answer: 'a. Absolutely, Celtics for life!', type: ['Jaden Lungidance'] },
-        { answer: 'b. I’m a fan, but I can be honest about the logo.', type: ['Tatum', 'Brown', 'Holiday', 'Horford'] },
-      ]
+        q: '14. Are you a stubborn Celtics fan who doesn’t admit that their logo is ugly?',
+        a: [
+            { answer: 'a. Absolutely, Celtics for life!', type: [18] },
+            { answer: 'b. I’m a fan, but I can be honest about the logo.', type: [17] },
+        ]
     },
-  ];
+];
+
   
   const infoList = [
     {
