@@ -28,3 +28,19 @@
     color: whitesmoke;
     width: 80%;
 }
+
+.status{
+    height: 20px;
+    width: 80%;
+    background-color: #f0eee6;
+    /* background-color: whitesmoke; */
+    border: 2.5px solid #007A33;
+    border-radius: 20px;
+}
+
+.statusBar{
+    height: 100%;
+    background-color: #007A33;
+    border: 3px solid #007A33;
+    border-radius: 20px;
+}
