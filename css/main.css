@@ -15,3 +15,11 @@
     color: #007A33;
     /* font-size: 60px; */
 }
+
+.btn-custom {
+    font-family: 'NBA Celtics', sans-serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
