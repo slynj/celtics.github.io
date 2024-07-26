@@ -1,8 +1,25 @@
  const main = document.querySelector("#main");
  const quiz = document.querySelector("#quiz");
+ const result = document.querySelector("#result");
  const endPoint = 14;
 
- function addAnswer(answerText, qIdx){
+ function goResult() {
+    quiz.style.WebkitAnimation = "fadeOut 0.5s";
+    quiz.style.animation = "fadeOut 0.5s";
+
+    setTimeout(() => {
+        result.style.WebkitAnimation = "fadeIn 0.5s";
+        result.style.animation = "fadeIn 0.5s";
+
+        setTimeout(() => {
+            quiz.style.display = "none"
+            result.style.display = "block"
+        }, 200);
+
+    }, 200);
+ }
+
+ function addAnswer(answerText, qIdx) {
     var a = document.querySelector('.answerBox');
     var answer = document.createElement('button');
     
@@ -39,6 +56,12 @@
  }
 
 function goNext(qIdx) {
+
+    if (qIdx+1 === endPoint) {
+        goResult();
+        return;
+    }
+
     var q = document.querySelector('.qBox');
     q.innerHTML = qnaList[qIdx].q;
 

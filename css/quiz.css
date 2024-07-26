@@ -7,7 +7,7 @@
     text-align: center;
     border-radius: 20px;
     font-size: xx-large;
-    width: 80%;
+    width: 85%;
 }
 
 .answerList{
@@ -20,18 +20,19 @@
     width: 100%;
     font-size: x-large;
     color: #007A33;
-    width: 80%;
+    width: 85%;
 }
 
 .answerList:hover, .answerList:focus{
     background-color: #007A33;
     color: whitesmoke;
-    width: 80%;
+    font-size: xx-large;
+    width: 86%;
 }
 
 .status{
     height: 20px;
-    width: 80%;
+    width: 85%;
     background-color: #f0eee6;
     /* background-color: whitesmoke; */
     border: 2.5px solid #007A33;
