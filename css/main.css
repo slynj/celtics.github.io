@@ -1,0 +1,17 @@
+#main{
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+@font-face {
+    font-family: 'NBA Celtics';
+    src: url('../src/NBA_Celtics.ttf') ;
+}
+
+.title-heading {
+    font-family: 'NBA Celtics', sans-serif;
+    color: #007A33;
+    /* font-size: 60px; */
+}
