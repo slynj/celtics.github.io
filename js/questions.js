@@ -92,7 +92,7 @@ const qnaList = [
       a: [
         { answer: 'a. I pack quickly and efficiently.', type: ['Holiday', 'Horford', 'Brown'] },
         { answer: 'b. I take my time to make sure I have everything.', type: ['Tatum', 'Pritchard', 'Hauser'] },
-        { answer: "c. It takes me forever to get ready, but I still tell Jaden that I'm almost done packing", type: ['Lyn vs Jeong', 'Porzingis', 'Smart'] },
+        { answer: "c. It takes me forever to get ready, but I still tell Jaden that I'm almost done packing", type: ['Lyn vs Jeong'] },
       ]
     },
     {
