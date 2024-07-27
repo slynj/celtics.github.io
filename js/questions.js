@@ -104,16 +104,16 @@ const qnaList = [
     {
         q: '11. How long is your shower?',
         a: [
-            { answer: 'a. Quick, I don’t like to waste time.', type: [15] },
-            { answer: 'b. Average, just enough to refresh.', type: [17] },
+            { answer: 'a. Quick, I don’t like to waste time.', type: [] },
+            { answer: 'b. Average, just enough to refresh.', type: [] },
             { answer: 'c. Long, I enjoy my time in the shower and somehow have my lips bleeding.', type: [16] },
         ]
     },
     {
         q: '12. How long does it take you to pack up for PAC?',
         a: [
-            { answer: 'a. I pack quickly and efficiently.', type: [16] },
-            { answer: 'b. I take my time to make sure I have everything.', type: [18] },
+            { answer: 'a. I pack quickly and efficiently.', type: [] },
+            { answer: 'b. I take my time to make sure I have everything.', type: [] },
             { answer: "c. It takes me forever to get ready, but I still tell Jaden that I'm almost done packing.", type: [15] },
         ]
     },
@@ -121,14 +121,14 @@ const qnaList = [
         q: '13. Are you bald?',
         a: [
             { answer: 'a. Yes, I embrace my baldness.', type: [17] },
-            { answer: 'b. No, I have a full head of hair.', type: [16] },
+            { answer: 'b. No, I have a full head of hair.', type: [] },
         ]
     },
     {
         q: '14. Are you a stubborn Celtics fan who doesn’t admit that their logo is ugly?',
         a: [
             { answer: 'a. Absolutely, Celtics for life!', type: [18] },
-            { answer: 'b. I’m a fan, but I can be honest about the logo.', type: [17] },
+            { answer: 'b. I’m a fan, but I can be honest about the logo.', type: [] },
         ]
     },
 ];
@@ -197,18 +197,18 @@ const qnaList = [
     },
     {
       name: 'The Korean Snack Vanisher: Lyn vs Jeong',
-      desc: 'You always have korean snacks in your bag, sometimes confusing others with the gingerbread version of yourself. Highly spawned at QNC and STC, you are always working on something but never quite finishing anything. A pro rummikub player, especially against certain opponents (jaden lungidance). You also have a hidden power: when you start packing for PAC, time passes by 2x faster!'
+      desc: 'You always have korean snacks in your bag, sometimes confusing others with the gingerbread version of yourself. Highly spawned at QNC and STC, you are always working on something but never quite finishing anything. An OP pro rummikub player, and constant apple watch competetion winner — especially against certain opponents (jaden lungidance). <br><br>You also have a hidden power: when you start packing for PAC, time passes by 2x faster!'
     },
     {
       name: 'The Unhinged Shower Master: rAyan El-Kaissi',
-      desc: "Known for your unhinged jokes that balance the group’s average mental age to be 81.5. You take exceptionally long showers that could lead to wrong life decisions and have a peculiar issue with bleeding lips. A famous game dev, the creator of a unique hotdog game. Has multiple personalities to admit that you are a chosen gaming chair. You also have a hidden power: when you show up, everyone dips!"
+      desc: "Known for your unhinged jokes that balance the group’s average mental age to be 81.5. You take exceptionally long showers that could lead to wrong life decisions and have a peculiar issue with bleeding lips. A famous game dev, the creator of a unique hotdog game. You have multiple personalities to admit that you are a chosen gaming chair. <br><br>You also have a hidden power: when you show up, everyone dips!"
     },
     {
       name: 'The Bald Supporter: Vilo Rao Bangalore Oakville Waterloo Mahesh',
-      desc: "Bald and proud, you are smart and kind-hearted, often helping others such as willy and timsort. You tend to be working on the most bizare things ever, like the constant 'K'. You are the only one who can understand rayan's jokes. Despite sometimes betraying others by changing your sequence, your heart is always in the right place. You also have a hidden power: you draw in randos everywhere you go!"
+      desc: "Bald and proud, you are smart and kind-hearted, often helping others such as willy and timsort. You tend to be working on the most bizare things ever, like the constant 'K'. You are the only one who can understand rayan's jokes. Despite sometimes betraying others by changing your sequence, your heart is always in the right place. <br><br>You also have a hidden power: you draw in randos everywhere you go!"
     },
     {
       name: 'The BBALL Hyper: Jaden Lungidance',
-      desc: "A professional lungidancer, you wear see-through socks to interviews, grind on the most random things, and keeps streaks for the weirdest things. You hate to admit that lyn is a better rummikub player, instead keep on betting on the steps thinking that you could win. You are a firm m'O'sala believer and a stalker fan of 'min2345'. You also have a hidden power: you can explain taylor theorem & polynomials 5+ times to lyn while she doesn't know that you've been explaining this to her 5+ times!"
+      desc: "A professional lungidancer, you wear see-through socks to interviews, grind on the most random things, and keeps streaks for the weirdest things. You hate to admit that lyn is a better rummikub player, instead keep on betting on the steps thinking that you could win. You are a firm m'O'sala believer and a stalker fan of 'min2345'. <br><br>You also have a hidden power: you can explain taylor theorem & polynomials 5+ times to lyn while she doesn't know that you've been explaining this to her 5+ times!"
     }
   ];
