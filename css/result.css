@@ -1,3 +1,45 @@
 #result{
     display: none;
+    background-color: whitesmoke;
+    width: 85%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#shareResult{
+    background-color: whitesmoke;
+    width: 85%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+@font-face {
+    font-family: 'NBA Celtics';
+    src: url('../src/NBA_Celtics.ttf') ;
+}
+
+.resultName {
+    font-family: 'NBA Celtics', sans-serif;
+    color: rgb(86, 86, 86);
+    font-size: 60px;
+    /* font-size: 60px; */
+}
+
+
+.btn-custom {
+    font-family: 'NBA Celtics', sans-serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultDesc {
+    font-size: x-large;
+}
+
+.title-heading {
+    font-family: 'NBA Celtics', sans-serif;
+    color: #007A33;
+    /* font-size: 60px; */
 }
