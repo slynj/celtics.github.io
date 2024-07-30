@@ -1,4 +1,4 @@
-const url = "slynj.github.io/celtics";
+const url = "https://slynj.github.io/celtics.github.io/";
 
 // function shareLink() {
 //     const message = "Yo Check This Out (ft. Zach Cramer) I'm  ";
