@@ -1,4 +1,4 @@
-const url = "slynj.github.io/celtics.github.io/";
+const url = "https://slynj.github.io/celtics.github.io/";
 
 function setShare() {
     var resultImg = document.querySelector('#resultImg');
